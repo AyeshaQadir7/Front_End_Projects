@@ -1,0 +1,139 @@
+/* <style>
+    /* CSS Reset */
+/*header*/
+body {
+
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(model.jpg);
+    background-color: #D1A78E;
+    background-position-x: 290px;
+    background-repeat: no-repeat;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+
+}
+
+.right {
+    /* border: 2px solid red;*/
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.mid {
+    /*  border: 2px solid green;*/
+    display: block;
+    width: 50%;
+    margin: 12px auto;
+    top: 20px;
+
+}
+
+.left {
+    /*border: 2px solid yellow;*/
+    display: inline-block;
+    left: 40px;
+    top: 20px;
+    position: absolute;
+}
+
+.left img {
+    height: 85px;
+
+}
+
+.left div {
+    text-align: center;
+    line-height: 5px;
+    font-size: 20px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    font-size: 21px;
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 13px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: unset;
+    color: #260F01;
+    border-radius: 10px;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    padding: 5px 25px;
+    background-color: #F27272;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    border: none;
+    border-radius: 9px;
+
+}
+
+.btn:hover {
+    background-color: #260F01;
+    border-radius: 9px;
+    color: #F2D4C2;
+
+}
+
+.container {
+    /* border: 2px solid green;*/
+    margin: 67px 40px;
+    padding: 9px 16px;
+    border-radius: 2px;
+    width: 33%;
+}
+
+.form-group input {
+    display: block;
+    width: 170px;
+    padding: 8px;
+    margin: 7px;
+    border: 1px #F2BB9B;
+    background: #F1C7AF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #260F01;
+}
+
+.container h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.container h2 {
+    color: #733E1F;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container button {
+    display: block;
+    width: 190px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 0px;
+}
+/* </style> */

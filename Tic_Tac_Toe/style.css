@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+body {
+    background-color: #457b9d;
+    text-align: center;
+  }
+
+h1 {
+    margin-top: 7vh;
+    color: #ffff;
+    font-size: 10vh;
+}
+
+.container {
+
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem #a8dadc 0.8;
+    font-size: 8vmin;
+    background-color: #1d3557;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #e63946;
+    color: #ffff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#reset-btn:hover {
+    background-color: #ffff;
+    color: #e63946;
+    font-weight: 600;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #e63946;
+    color: #ffff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn:hover {
+    background-color: #ffff;
+    color: #e63946;
+    font-weight: 600;
+}
+
+#msg {
+    color: #ffff;
+    font-size: 8vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
+
+.animation-container {
+    text-align: center;
+  }
+  
+  .bouncing-text {
+    font-size: 10vh;
+    animation: bounce .5s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
